@@ -1,0 +1,21 @@
+div{
+    background: linear-gradient(lightblue 0%, pink 100%);
+}
+.labels{
+    font-size:30px;
+}
+#start{
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    width:100px;
+}
+.aliens{
+    width:300px;
+}
+#credits{
+    text-shadow: 5px 5px 5px rgb(151, 149, 149);
+ font-size: 20px;   
+}
+#title{
+    background: grey;
+}

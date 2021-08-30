@@ -1,0 +1,39 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+      <center>
+        <div id="title"><h1 id="title">Animal Identifier</h1>
+        <h4 id="subtitle">Note: Play different sounds like barking and meowing to make the animals dance</h4>
+        <br><br></div><div id="body"><button class="btn btn-primary" id="start" onclick="startClassification()">Start</button>
+        <h1 class="labels">I can Hear-<span><h1 id="sound"></h1></span></h1>
+        <h1 class="labels">Accuracy-<span><h1 id="accuracy"></h1></span></h1>
+        <div><img class="aliens" id="dog" src="dog.jpeg"><img class="aliens" id="cat" src="cat.jpg"></div>
+        </div><div id="title"></div><br><br><br><br>
+        <h4 id="credits">Developed by:Scott</h4></div>
+      </center>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
